@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/output.css" rel="stylesheet" />
+    <title>Cozy Roast</title>
+    <style>
+      body {
+        overflow-x: hidden;
+        /* font-family: "Chelsea Market", serif; */
+      }
+      .logo {
+        font-family: "Permanent Marker", serif;
+      }
+      .title {
+        font-family: "Chelsea Market", serif;
+        font-weight: 800;
+      }
+    </style>
+    <!-- gogle font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Permanent+Marker&family=Poppins:wght@400;500;600&family=Protest+Revolution&family=Rubik+Glitch+Pop&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <section class="w-screen mx-auto px-4">
+      <nav class="flex py-8 px-8 lg:px-16 flex-wrap justify-between">
+        <div class="flex shrink-0 mr-6">
+          <h1 class="text-3xl font-bold text-orange-500 logo mr-2">Cozy Roast</h1>
+        </div>
+        <div class="lg:hidden inline-block">
+          <a class="flex items-center text-orange-500 hover:border-2 border-orange-500 p-2 rounded">
+            <svg class="block size-10" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </a>
+        </div>
+        <div class="block lg:flex items-center w-full lg:w-auto">
+          <a href="#home" class="block lg:inline-block mt-4 lg:mt-0 text-lg text-slate-500 mr-8 hover:text-orange-500">Home</a>
+          <a href="#about" class="block lg:inline-block mt-4 lg:mt-0 text-lg text-slate-500 mr-8 hover:text-orange-500">About</a>
+          <a href="#menu" class="block lg:inline-block mt-4 lg:mt-0 text-lg text-slate-500 mr-8 hover:text-orange-500">Menu</a>
+          <a href="#barista" class="block lg:inline-block mt-4 lg:mt-0 text-lg text-slate-500 mr-8 hover:text-orange-500">Barista</a>
+          <a href="#contacts" class="block lg:inline-block mt-4 lg:mt-0 text-lg text-slate-500 mr-8 hover:text-orange-500">Contact</a>
+          <a href="#cart"> <i class="block lg:inline-block mt-4 lg:mt-0 fa-solid fa-cart-shopping text-slate-500 hover:text-orange-500 text-2xl p-2 cursor-pointer mr-8"></i></a>
+        </div>
+        <div class="flex w-full lg:w-auto">
+          <a href="#booking">
+            <button class="w-full text-white bg-orange-500 px-8 font-bold py-2 rounded-4xl hover:bg-orange-400 mt-4 lg:mt-0 cursor-pointer">Book a Table</button>
+          </a>
+        </div>
+      </nav>
+    </section>
+    <!-- Navbar final -->
+
+    <!-- Home start -->
+    <section class="w-screen mx-auto px-4 bg-gray-100" id="home">
+      <div class="flex flex-wrap px-8 justify-between">
+        <div class="py-24 px-0 lg:px-8 order-2 lg:order-1">
+          <h1 class="mb-3 text-4xl lg:text-5xl lg:tracking-wide lg:leading-snug italic text-slate-800 font-light title">Enjoy Your Live <br />Drink Coffe Everyday</h1>
+          <h3 class="mb-3 text-lg lg:text-xl text-slate-600">
+            Coffee is served with love and affection so that the <br />
+            result is delicious
+          </h3>
+          <div class="flex items-center lg:mt-8">
+            <a href="#book" class="mr-4">
+              <button class="text-white bg-orange-500 px-4 font-bold py-2 rounded-4xl hover:bg-orange-400 mt-4 lg:mt-0 cursor-pointer">Book a Table</button>
+            </a>
+            <a href="#">
+              <div class="flex items-center mt-4 lg:mt-0 border border-orange-500 rounded-xl px-2 cursor-pointer">
+                <i class="fa-solid fa-play text-2xl text-orange-500 p-2"></i>
+                <p class="hover:text-black text-orange-500 flex hover:underline">Watch a video</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="order-1 lg:order-2">
+          <img src="./img/hero.png" alt="Cozy Roast" />
+        </div>
+      </div>
+    </section>
+    <!-- Home final -->
+
+    <!-- About start -->
+    <section class="w-screen mx-auto p-16" id="about">
+      <h1 class="text-slate-500 text-center uppercase text-sm font-bold mb-4">About Us</h1>
+      <h2 class="text-3xl lg:text-4xl title italic text-center">Learn More <span class="text-orange-500"> About Us</span></h2>
+      <!-- home first -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 mt-16 items-center gap-10">
+        <div>
+          <img src="./img/coffeshop.jpg" alt="Cozy Roast" class="rounded-lg shadow-lg" />
+          <div class="py-4 border-4 border-slate-500 mt-4 text-center rounded-lg shadow-lg">
+            <p class="text-xl lg:text-2xl font-bold mb-2">Book a Table</p>
+            <a href="#">
+              <p class="text-xl lg:text-2xl text-orange-500 font-bold">+62 8829 9049 47</p>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <p class="text-base lg:text-lg text-slate-400 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <ul class="mt-4 text-base lg:text-lg">
+            <li class="flex items-center mb-3">
+              <i class="fa-solid fa-check bg-orange-400 rounded-full p-1 text-white text-sm mr-2"></i>
+              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </li>
+            <li class="flex items-center mb-3">
+              <i class="fa-solid fa-check bg-orange-400 rounded-full p-1 text-white text-sm mr-2"></i>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+            </li>
+            <li class="flex items-start mb-4">
+              <i class="fa-solid fa-check bg-orange-400 rounded-full p-1 text-white text-sm mr-2"></i>
+              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</p>
+            </li>
+          </ul>
+          <p class="text-base lg:text-lg text-justify mb-8">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique veritatis corporis quisquam, a aperiam voluptate amet! Dolorem sunt facere, ut dolore dolorum adipisci hic nostrum id, totam, nisi voluptas repudiandae.
+          </p>
+          <img src="./img/coffe.jpg" alt="Coffe Cozy Roast" class="rounded-lg shadow-lg" />
+        </div>
+      </div>
+
+      <!-- home seccond -->
+      <div class="w-ful grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5 mt-16">
+        <div class="bg-orange-500 text-white p-8 text-center shadow-xl rounded cols-span-1 lg:col-span-2">
+          <h2 class="font-extrabold text-2xl mb-4">Why Choose</h2>
+          <p class="text-justify mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore
+            quibusdam vel necessitatibus optio ad corporis.
+          </p>
+          <a href="#">
+            <button class="text-white bg-orange-400 px-4 font-bold py-2 rounded-4xl hover:bg-white hover:text-orange-500 mt-4 lg:mt-0 cursor-pointer">Learn More</button>
+          </a>
+        </div>
+        <div class="w-full lg:w-auto bg-gray-100 text-center p-8 text-center shadow-xl rounded col-span-1">
+          <div class="mb-4">
+            <i class="fa-solid fa-users text-5xl text-orange-500 bg-orange-50 p-4 rounded-full hover:bg-orange-500 hover:text-white"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-4">Corporis voluptates officia eiusmod</h3>
+          <p class="text-slate-500">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+        </div>
+        <div class="w-full lg:w-auto bg-gray-100 text-center p-8 text-center shadow-xl rounded col-span-1">
+          <div class="mb-4">
+            <i class="fa-solid fa-mug-saucer text-5xl text-orange-500 bg-orange-50 p-4 rounded-full hover:bg-orange-500 hover:text-white"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-4">Ullamco laboris ladore lore pan</h3>
+          <p class="text-slate-500">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+        </div>
+        <div class="w-full lg:w-auto bg-gray-100 text-center p-8 text-center shadow-xl rounded col-span-1">
+          <div class="mb-4">
+            <i class="fa-solid fa-truck-fast text-5xl text-orange-500 bg-orange-50 p-4 rounded-full hover:bg-orange-500 hover:text-white"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-4">Labore consequatur incidid dolore</h3>
+          <p class="text-slate-500">Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+        </div>
+      </div>
+    </section>
+    <!-- About final -->
+
+    <!-- Menu start -->
+    <section class="w-screen mx-auto p-16 bg-gray-100" id="menu">
+      <h1 class="text-slate-500 text-center uppercase text-sm font-bold mb-4">Our Menu</h1>
+      <h2 class="text-3xl lg:text-4xl title italic text-center">Check Our <span class="text-orange-500">Cozy Roast Menu</span></h2>
+      <div class="flex justify-center gap-10 mt-8">
+        <p class="text-sm lg:text-lg font-bold border-b hover:bg-orange-500 px-4 py-2 hover:border-none hover:text-white">Drink</p>
+        <p class="text-sm lg:text-lg font-bold border-b hover:bg-orange-500 px-4 py-2 hover:border-none hover:text-white">Food</p>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-16">
+        <div class="text-center bg-amber-50 rounded-xl shadow-xl">
+          <div class="p-10">
+            <img src="./img/coffe1.png" alt="Coffe 1" class="mb-8 rounded-xl" />
+            <h3 class="text-xl lg:text-2xl text-slate-700 mb-2 font-bold">Coffe Rainbow</h3>
+            <p class="text-slate-500 text-lg lg:text-xl font-bold">Rp 30.000</p>
+            <div class="mt-8">
+              <a href="#">
+                <button class="p-2 border rounded border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white">Add to Cart</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center bg-amber-50 rounded-xl shadow-xl">
+          <div class="p-10">
+            <img src="./img/coffe2.png" alt="Coffe 1" class="mb-8 rounded-xl" />
+            <h3 class="text-xl lg:text-2xl text-slate-700 mb-2 font-bold">Coffe Capuccino</h3>
+            <p class="text-slate-500 text-lg lg:text-xl font-bold">Rp 25.000</p>
+            <div class="mt-8">
+              <a href="#">
+                <button class="p-2 border rounded border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white">Add to Cart</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center bg-amber-50 rounded-xl shadow-xl">
+          <div class="p-10">
+            <img src="./img/coffe3.png" alt="Coffe 1" class="mb-8 rounded-xl" />
+            <h3 class="text-xl lg:text-2xl text-slate-700 mb-2 font-bold">Coffe Coconut</h3>
+            <p class="text-slate-500 text-lg lg:text-xl font-bold">Rp 30.000</p>
+            <div class="mt-8">
+              <a href="#">
+                <button class="p-2 border rounded border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white">Add to Cart</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center bg-amber-50 rounded-xl shadow-xl">
+          <div class="p-10">
+            <img src="./img/coffe4.png" alt="Coffe 1" class="mb-8 rounded-xl" />
+            <h3 class="text-xl lg:text-2xl text-slate-700 mb-2 font-bold">Coffe Americano</h3>
+            <p class="text-slate-500 text-lg lg:text-xl font-bold">Rp 20.000</p>
+            <div class="mt-8">
+              <a href="#">
+                <button class="p-2 border rounded border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white">Add to Cart</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center bg-amber-50 rounded-xl shadow-xl">
+          <div class="p-10">
+            <img src="./img/coffe5.png" alt="Coffe 1" class="mb-8 rounded-xl" />
+            <h3 class="text-xl lg:text-2xl text-slate-700 mb-2 font-bold">Coffe Esspreso</h3>
+            <p class="text-slate-500 text-lg lg:text-xl font-bold">Rp 25.000</p>
+            <div class="mt-8">
+              <a href="#">
+                <button class="p-2 border rounded border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white">Add to Cart</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center bg-amber-50 rounded-xl shadow-xl">
+          <div class="p-10">
+            <img src="./img/coffe6.png" alt="Coffe 1" class="mb-8 rounded-xl" />
+            <h3 class="text-xl lg:text-2xl text-slate-700 mb-2 font-bold">Coffe Caramel Latte</h3>
+            <p class="text-slate-500 text-lg lg:text-xl font-bold">Rp 30.000</p>
+            <div class="mt-8">
+              <a href="#">
+                <button class="p-2 border rounded border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white">Add to Cart</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Menu final -->
+
+    <!-- Barista start -->
+    <section class="w-screen mx-auto p-16 bg-gray-100" id="barista">
+      <h1 class="text-slate-500 text-center uppercase text-sm font-bold mb-4">Barista</h1>
+      <h2 class="text-3xl lg:text-4xl title italic text-center">Our <span class="text-orange-500">Profesional Barista</span></h2>
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-16">
+        <div class="text-center bg-white rounded-lg shadow-2xl">
+          <img src="./img/barista1.png" alt="Barista1" class="mb-6" />
+          <div class="p-6">
+            <h4 class="text:lg lg:text-xl font-bold mb-2">Ahmad Zaynury</h4>
+            <h5 class="text-sm lg:text-lg text-slate-500 mb-4">Master Barista</h5>
+            <p class="text-sm mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, suscipit quae? Tempore iusto quaerat doloremque, voluptate soluta velit at odio!</p>
+          </div>
+        </div>
+
+        <div class="text-center bg-white rounded-lg shadow-2xl">
+          <img src="./img/barista2.png" alt="Barista1" class="mb-6" />
+          <div class="p-6">
+            <h4 class="text-lg lg:text-xl font-bold mb-2">Cintya Adista</h4>
+            <h5 class="text-sm lg:text-lg text-slate-500 mb-4">Cashier and Runner</h5>
+            <p class="text-sm mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, suscipit quae? Tempore iusto quaerat doloremque, voluptate soluta velit at odio!</p>
+          </div>
+        </div>
+
+        <div class="text-center bg-white rounded-lg shadow-2xl">
+          <img src="./img/barista3.png" alt="Barista1" class="mb-6" />
+          <div class="p-6">
+            <h4 class="text-lg lg:text-xl font-bold mb-2">Rifald Gustrada</h4>
+            <h5 class="text-sm lg:text-lg text-slate-500 mb-4">Junior Barista</h5>
+            <p class="text-sm mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, suscipit quae? Tempore iusto quaerat doloremque, voluptate soluta velit at odio!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Barista final -->
+
+    <!-- Booking start -->
+    <section class="w-screen mx-auto p-16" id="booking">
+      <h1 class="text-slate-500 text-center uppercase text-sm font-bold mb-4">Book A Table</h1>
+      <h2 class="text-3xl lg:text-4xl title italic text-center">Book Your <span class="text-orange-500">Stay With Us</span></h2>
+      <div class="grid grid-cols-1 lg:grid-cols-3 mt-16">
+        <div class="bg-slate-100 col-span-1">
+          <img src="./img/drink.jpg" alt="Drink Coffe" />
+        </div>
+        <div class="bg-slate-100 col-span-2 grid items-center">
+          <form action="#">
+            <div class="grid grid-cols-1 p-4 lg:px-8 gap-5 w-full mt-4 lg:mt-0">
+              <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+                <div class="w-full">
+                  <input type="text" class="px-4 py-3 placeholder-gray-600 text-sm w-full text-gray-600 bg-white border border-slate-300 rounded" placeholder="Your Name" />
+                </div>
+                <div class="w-full">
+                  <input type="text" class="px-4 py-3 placeholder-gray-600 text-sm w-full text-gray-600 bg-white border border-slate-300 rounded" placeholder="Your Email" />
+                </div>
+                <div class="w-full">
+                  <input type="text" class="px-4 py-3 placeholder-gray-600 text-sm w-full text-gray-600 bg-white border border-slate-300 rounded" placeholder="Your Phone" />
+                </div>
+                <div class="w-full">
+                  <input type="date" class="px-4 py-3 placeholder-gray-600 text-sm w-full text-gray-600 bg-white border border-slate-300 rounded" placeholder="Your Name" />
+                </div>
+                <div class="w-full">
+                  <select name="select no table" class="px-4 py-3 placeholder-gray-600 text-sm w-full text-gray-600 bg-white border border-slate-300 rounded">
+                    <option disabled selected>Select Number Table</option>
+                    <option value="no-1">301</option>
+                    <option value="no-1">302</option>
+                    <option value="no-1">303</option>
+                    <option value="no-1">304</option>
+                    <option value="no-1">305</option>
+                  </select>
+                </div>
+                <div class="w-full">
+                  <input type="number" class="px-4 py-3 placeholder-gray-600 text-sm w-full text-gray-600 bg-white border border-slate-300 rounded" placeholder="Your Age" />
+                </div>
+              </div>
+
+              <div class="w-full">
+                <textarea rows="6" class="w-full px-4 py-3 placeholder-gray-600 text-sm text-gray-600 bg-white border border-slate-300 rounded">Message</textarea>
+              </div>
+
+              <div class="w-full py-4 text-center mt-4 lg:mt-40">
+                <a href="#">
+                  <button class="px-8 py-3 bg-orange-500 text-white rounded font-bold hover:bg-orange-400">Send Message</button>
+                </a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Booking final -->
+
+    <!-- Contact start -->
+    <section class="w-screen mx-auto p-16 bg-slate-100">
+      <h1 class="text-slate-500 text-center uppercase text-sm font-bold mb-4">Contact</h1>
+      <h2 class="text-3xl lg:text-4xl title italic text-center">Need Help? <span class="text-orange-500">Contact Us</span></h2>
+      <iframe
+        class="w-full h-100 rounded-md shadow mt-16"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.578020784405!2d110.37845131438936!3d-7.77490777923433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5789f8e37b3d%3A0x5f536f979a1e0f90!2sYogyakarta!5e0!3m2!1sen!2sid!4v1618667691522!5m2!1sen!2sid"
+        allowfullscreen=""
+        loading="lazy"
+      >
+      </iframe>
+      <div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-12">
+          <div class="flex w-full bg-white items-center p-8 shadow-2xl rounded-md">
+            <div class="flex justify-center items-center mr-4">
+              <i class="fa-solid fa-location-dot text-4xl text-orange-500"></i>
+            </div>
+            <div>
+              <p class="text-lg lg:text-xl font-bold">Address</p>
+              <p class="text-sm lg:text-lg">Jl Ahmad Yani 8,Malioboro, Yogyakarta</p>
+            </div>
+          </div>
+          <div class="flex w-full bg-white items-center p-8 shadow-2xl rounded-md">
+            <div class="flex justify-center items-center mr-4">
+              <i class="fa-solid fa-phone text-4xl text-orange-500"></i>
+            </div>
+            <div>
+              <p class="text-lg lg:text-xl font-bold">Call Us</p>
+              <p class="text-sm lg:text-lg">+62 8829 9049 47</p>
+            </div>
+          </div>
+
+          <div class="flex w-full bg-white items-center p-8 shadow-2xl rounded-md">
+            <div class="flex justify-center items-center mr-4">
+              <i class="fa-solid fa-envelope text-4xl text-orange-500"></i>
+            </div>
+            <div>
+              <p class="text-lg lg:text-xl font-bold">Email Us</p>
+              <p class="text-sm lg:text-lg">cozyroast12@gmail.com</p>
+            </div>
+          </div>
+          <div class="flex w-full bg-white items-center p-8 shadow-2xl rounded-md">
+            <div class="flex justify-center items-center mr-4">
+              <i class="fa-solid fa-clock text-4xl text-orange-500"></i>
+            </div>
+            <div>
+              <p class="text-lg lg:text-xl font-bold">Opening Hours</p>
+              <p class="text-sm lg:text-lg">Mon-Sat: 11AM - 23PM; Sunday: Closed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white mt-12 rounded-md shadow">
+        <form action="#">
+          <div class="grid grid-cols-1 gap-10 p-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+              <input type="text" class="px-4 py-3 placeholder-gray-600 text-sm w-full text-gray-600 bg-white border border-slate-300 rounded" placeholder="Your Name" />
+              <input type="text" class="px-4 py-3 placeholder-gray-600 text-sm w-full text-gray-600 bg-white border border-slate-300 rounded" placeholder="Your Email" />
+            </div>
+
+            <div class="w-full">
+              <input type="text" class="px-4 py-3 placeholder-gray-600 text-sm w-full text-gray-600 bg-white border border-slate-300 rounded" placeholder="Your Subject" />
+            </div>
+
+            <div class="w-full">
+              <textarea rows="6" class="w-full px-4 py-3 placeholder-gray-600 text-sm text-gray-600 bg-white border border-slate-300 rounded" placeholder="Message"></textarea>
+            </div>
+
+            <div class="w-full text-center mt-2">
+              <a href="#">
+                <button class="px-8 py-3 bg-orange-500 text-white rounded font-bold hover:bg-orange-400">Send Message</button>
+              </a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Contact final -->
+
+    <!-- Footer -->
+    <section class="w-screen mx-auto p-16 bg-slate-900">
+      <footer>
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-10 mb-4">
+          <div class="text-white ">
+            <div class="flex w-full">
+              <div class="flex justify-center items-center mr-4">
+                <i class="fa-solid fa-location-dot text-2xl text-orange-500"></i>
+              </div>
+              <div>
+                <p class="text-lg font-bold mb-2">Address</p>
+                <p class="text-sm">Jl Ahmad Yani 8,Malioboro, Yogyakarta</p>
+              </div>
+            </div>
+          </div>
+          <div class="text-white ">
+            <div class="flex w-full">
+              <div class="flex justify-center items-center mr-4">
+                <i class="fa-solid fa-phone text-2xl text-orange-500"></i>
+              </div>
+              <div>
+                <p class="text-lg font-bold mb-2">Contact</p>
+                <p class="text-sm">+62 8829 9049 47</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-white">
+            <div class="flex w-full">
+              <div class="flex justify-center items-center mr-4">
+                <i class="fa-solid fa-clock text-2xl text-orange-500"></i>
+              </div>
+              <div>
+                <p class="text-lg font-bold mb-2">Opening Hours</p>
+                <p class="text-sm">Mon-Sat: 11AM - 23PM; Sunday: Closed</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-white">
+            <p class="text-lg font-bold mb-2 text-white">Follow Us</p>
+            <div class="flex gap-5">
+              <a href="#">
+                <i class="fa-brands fa-x-twitter text-2xl hover:text-orange-500"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-facebook text-2xl hover:text-orange-500"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram text-2xl hover:text-orange-500"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-linkedin text-2xl hover:text-orange-500"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <hr class="text-white opacity-35 mb-4">
+        <p class="text-sm text-white text-center">© Copyright <span class="font-bold">Cozy Roast</span> All Rights Reserved</p>
+      </footer>
+    </section>
+    <script src="https://kit.fontawesome.com/f3d2ed2e83.js" crossorigin="anonymous"></script>
+  </body>
+</html>
